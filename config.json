@@ -9,7 +9,7 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "Send SMS Roman",
+      "name": "geniune_infobit",
       "description": "Send SMS over Infobip"
     }
   },
