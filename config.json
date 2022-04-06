@@ -9,7 +9,7 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "geniune_infobit",
+      "name": "genuine_infobit",
       "description": "Send SMS over Infobip"
     }
   },
