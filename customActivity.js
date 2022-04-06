@@ -1,3 +1,4 @@
+
 define(['postmonger', 'infobip-data-coding', 'constants'], function(Postmonger, InfobipDataCoding, InfobipConstants) {
     'use strict';
 

@@ -1,3 +1,4 @@
+
 {
   "workflowApiVersion": "1.1",
   "metaData": {
@@ -8,7 +9,7 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "Roman test",
+      "name": "Send SMS Roman",
       "description": "Send SMS over Infobip"
     }
   },
