@@ -8,7 +8,7 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "Nastya test",
+      "name": "Roman test",
       "description": "Send SMS over Infobip"
     }
   },
