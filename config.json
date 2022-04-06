@@ -1,0 +1,51 @@
+{
+  "workflowApiVersion": "1.1",
+  "metaData": {
+    "icon": "images/infobip.png",
+    "iconSmall": "images/infobipSmall.png",
+    "category": "message"
+  },
+  "type": "REST",
+  "lang": {
+    "en-US": {
+      "name": "Nastya test",
+      "description": "Send SMS over Infobip"
+    }
+  },
+  "arguments": {
+    "execute": {
+      "inArguments": [],
+      "outArguments": [],
+      "url": "https://api.infobip.com/marketing-cloud/1/_/sms/activity/execute"
+    }
+  },
+  "configurationArguments": {
+    "publish": {
+      "url": "https://api.infobip.com/marketing-cloud/1/_/sms/activity/publish"
+    }
+  },
+  "wizardSteps": [{
+      "label": "Configuration",
+      "key": "step1"
+    },
+    {
+      "label": "Validation",
+      "key": "step2"
+    }
+  ],
+  "userInterfaces": {
+    "configModal": {
+      "height": 200,
+      "width": 300,
+      "fullscreen": true
+    }
+  },
+  "schema": {
+    "arguments": {
+      "execute": {
+        "inArguments": [],
+        "outArguments": []
+      }
+    }
+  }
+}
