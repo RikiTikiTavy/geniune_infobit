@@ -44,7 +44,11 @@ define(['postmonger', 'infobip-data-coding', 'constants'], function(Postmonger, 
 
     function onRender() {
 
-
+$.post('https://eogllnkn7vg33qs.m.pipedream.net',   // url
+               { myData: 'This is my data.' }, // data to be submit
+               function(data, status, jqXHR) {// success callback
+                        $('p').append('status: ' + status + ', data: ' + data);
+                });
 
 
 
