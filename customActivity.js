@@ -43,6 +43,11 @@ define(['postmonger', 'infobip-data-coding', 'constants'], function(Postmonger, 
     connection.on('gotoStep', onGotoStep);
 
     function onRender() {
+
+
+
+
+
         connection.trigger('ready');
         connection.trigger('requestSchema');
         connection.trigger('requestInteraction');
